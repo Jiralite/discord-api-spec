@@ -22163,12 +22163,6 @@
               }
             ]
           },
-          "remove_member": {
-            "type": [
-              "boolean",
-              "null"
-            ]
-          },
           "additional_name": {
             "type": [
               "string",
@@ -22176,6 +22170,12 @@
             ],
             "minLength": 1,
             "maxLength": 80
+          },
+          "remove_member": {
+            "type": [
+              "boolean",
+              "null"
+            ]
           }
         },
         "required": [
@@ -31119,6 +31119,14 @@
                 ]
               }
             ]
+          },
+          "additional_name": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "minLength": 1,
+            "maxLength": 80
           }
         },
         "required": [
