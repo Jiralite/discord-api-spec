@@ -17557,6 +17557,19 @@
               "boolean",
               "null"
             ]
+          },
+          "file_types": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 16
+            },
+            "maxItems": 10,
+            "uniqueItems": true
           }
         },
         "required": [
@@ -17612,6 +17625,14 @@
           },
           "required": {
             "type": "boolean"
+          },
+          "file_types": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "maxLength": 16
+            },
+            "uniqueItems": true
           }
         },
         "required": [
@@ -25544,6 +25565,19 @@
               "boolean",
               "null"
             ]
+          },
+          "file_types": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 16
+            },
+            "maxItems": 10,
+            "uniqueItems": true
           }
         },
         "required": [
